@@ -1,0 +1,10 @@
+diff a/assets/HallowsNight/Script/HallowsNightController.js b/assets/HallowsNight/Script/HallowsNightController.js	(rejected hunks)
+@@ -167,7 +167,7 @@
+             }
+ 
+             this.goldCoinRestore.storeGoldCoinList(this.goldCoinList);
+-            this.panelMainView.confirmbetAmount(this.goldCoinList);
++            // this.panelMainView.confirmbetAmount(this.goldCoinList);
+             //console.log(betSize[0] == 1);
+ 
+ 

@@ -1,0 +1,16 @@
+diff a/assets/HallowsNight/Script/HallowNightGoldCoin.js b/assets/HallowsNight/Script/HallowNightGoldCoin.js	(rejected hunks)
+@@ -72,10 +72,13 @@
+ 
+     storeGoldCoinList(goldCoinList){
+         this.goldCoinList = goldCoinList;
+-        this.showCoinRestore(2);
++        this.showCoinRestore(1);
++        console.log(this.goldCoinList);
+     },
+ 
+     showRestoreCoin(betSize){
++        this.betSize = betSize;
++        console.log(this.betSize);
+         this.keepCoin = 0;
+         this.currentCount = 0;
+         for (let i = 0; i < this.goldCoinList; i++) {
